@@ -15,7 +15,7 @@
 }
 
 body{
-    background-image: linear-gradient(#23232e, #676787);
+    background-image: linear-gradient(#23232e, #22202a);
     font-family: nunito, monospace;
     color: #fff;
 }
@@ -90,17 +90,21 @@ p{
 
 /* SOFT & HARDSKILLS */
 
+#txt-skills{
+    text-align: center;
+    margin-top:100px;
+}
+
 #skills{
     display: flex;
     color: rgb(255, 255, 255);
 
-    margin-top: 200px;
+    margin-top: 30px;
     margin-bottom: 400px;
-    justify-content: center;
-    
+    justify-content: space-evenly;
 }
 
-#hardskills{
+.box-skills{
     /* Caixa */
     border-radius: 40px;
     background: linear-gradient(315deg, #202029, #252531);
@@ -112,7 +116,7 @@ p{
 
 }
 
-#hardskills img{
+.box-skills img{
     width: 70px;
     margin: 30px;
     
