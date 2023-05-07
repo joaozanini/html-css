@@ -10,114 +10,12 @@
 }
 
 *{
-    margin: 0px;
+    margin: 10px;
     padding: 0px;
 }
 
 body{
-    background-image: linear-gradient(#23232e, #22202a);
     font-family: nunito, monospace;
+    background-color: cornflowerblue;
     color: #fff;
-}
-
-/* HEADER */
-nav{
-    display: flex;
-    
-    justify-content:space-between;
-    align-items: center;
-    height: 10vh;
-
-    font-size: 24px;
-}
-
-#logo{
-    margin-left: 64px;
-    font-weight: normal;
-}
-
-.nav-list{
-    list-style: none;
-    display: flex;
-}
-
-.nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
-    margin-right: 64px;
-}
-
-a{
-    color: #fff;
-    text-decoration: none;
-}
-
-a:hover{
-    opacity: 0.6;
-}
-
-/* MAIN */
-
-main{
-    margin-top: 100px;
-}
-
-p{
-    opacity: 0.6;
-}
-
-#about{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#about-txt h1, p{
-    font-size: 30px;
-    text-align: justify;
-
-    width: 450px;
-    margin-left: 100px;
-    letter-spacing: 1px;
-}
-
-#pfp{
-    border-radius: 50%;
-    width: 500px;
-    height: 500px;
-}
-
-
-/* SOFT & HARDSKILLS */
-
-#txt-skills{
-    text-align: center;
-    margin-top:100px;
-}
-
-#skills{
-    display: flex;
-    color: rgb(255, 255, 255);
-
-    margin-top: 30px;
-    margin-bottom: 400px;
-    justify-content: space-evenly;
-}
-
-.box-skills{
-    /* Caixa */
-    border-radius: 40px;
-    background: linear-gradient(315deg, #202029, #252531);
-    box-shadow:  -19px -19px 38px #131319,
-             19px 19px 38px #333343;
-
-    width: 400px;
-    height: 300px;
-
-}
-
-.box-skills img{
-    width: 70px;
-    margin: 30px;
-    
 }
